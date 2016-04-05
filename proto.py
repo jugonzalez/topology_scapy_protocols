@@ -1,3 +1,4 @@
+from scapy.all import *
 class Proto1(Packet):
     name = 'Protocol 1'
     fields_desc = [ShortField('field1', 1),
